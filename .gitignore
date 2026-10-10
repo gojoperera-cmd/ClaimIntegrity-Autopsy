@@ -1,0 +1,47 @@
+# Forensic disk images and VM files
+*.vmdk
+*.vmdk.lck
+*.vmem
+*.vmsn
+*.vswp
+*.nvram
+*.vmx
+*.e01
+*.E01
+*.dd
+*.raw
+*.img
+*.001
+
+# Autopsy cases and indexes
+AutopsyCases/
+EvidenceImages/
+CaseUcoReport/
+ModuleOutput/
+Temp/
+solr/
+*.aut
+
+# Evidence and user data
+evidence/
+private-data/
+browser-data/
+user-profiles/
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+credentials.*
+secrets.*
+passwords.*
+
+# Python and editor files
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Windows files
+Thumbs.db
+Desktop.ini
